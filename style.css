@@ -112,7 +112,7 @@ body {
             }
 
             div.card.banner {
-                background: url(/images/flowers.png);
+                background: url(images/flowers.png);
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -140,7 +140,7 @@ body {
             }
 
             div.card.today {
-                background: url(/images/lightflowers.png);
+                background: url(images/lightflowers.png);
                 background-size: cover;
                 display: flex;
                 flex-direction: column;
@@ -162,7 +162,7 @@ body {
             }
     
             div.card.tomorrow {
-                background: url(/images/lightflowers.png);
+                background: url(images/lightflowers.png);
                 background-size: cover;
                 display: flex;
                 flex-direction: column;
@@ -194,7 +194,7 @@ body {
                     width: 50%;
                     padding: 30px;
                     gap: 20px;
-                    background: url(/images/lightflowers.png);
+                    background: url(images/lightflowers.png);
 
                     h1.heading {
                         color: var(--blue);
@@ -219,7 +219,7 @@ body {
                 width: 50%;
                 height: 100%;
                 overflow: hidden;
-                background: url(/images/midflowers.png);
+                background: url(images/midflowers.png);
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -247,7 +247,7 @@ body {
                     width: 50%;
                     padding: 30px;
                     gap: 20px;
-                    background: url(/images/lightflowers.png);
+                    background: url(images/lightflowers.png);
 
                     h1.heading {
                         color: var(--pink);
@@ -272,7 +272,7 @@ body {
                 div.image {
                     width: 50%;
                     height: 100%;
-                    background: url(/images/midflowers.png);
+                    background: url(images/midflowers.png);
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -301,7 +301,7 @@ body {
                     width: 50%;
                     padding: 30px;
                     gap: 20px;
-                    background: url(/images/lightflowers.png);
+                    background: url(images/lightflowers.png);
 
                     div.button-column {
                         display: flex;
@@ -362,7 +362,7 @@ body {
                     width: 50%;
                     padding: 30px;
                     gap: 20px;
-                    background: url(/images/lightflowers.png);
+                    background: url(images/lightflowers.png);
                     
                     h1.heading {
                         color: var(--blue);
@@ -415,7 +415,7 @@ body {
                     width: 50%;
                     padding: 30px;
                     gap: 20px;
-                    background: url(/images/lightflowers.png);
+                    background: url(images/lightflowers.png);
 
                     h1.heading {
                         font-size: 60px;
@@ -433,7 +433,7 @@ body {
                 div.image {
                     width: 50%;
                     height: 100%;
-                    background: url(/images/midflowers.png);
+                    background: url(images/midflowers.png);
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -588,7 +588,7 @@ body {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background: url(/images/flowers.png);
+            background: url(images/flowers.png);
             height: 70vh;
 
             h1 {
@@ -621,7 +621,7 @@ body {
                 flex-direction: column;
                 padding: 15px;
                 gap: 10px;
-                background: url(/images/lightflowers.png);
+                background: url(images/lightflowers.png);
 
                 h1.heading {
                     font-size: 50px;
@@ -644,7 +644,7 @@ body {
                 height: fit-content;
                 width: 100vw;
                 overflow: hidden;
-                background: url(/images/midflowers.png);
+                background: url(images/midflowers.png);
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -673,7 +673,7 @@ body {
                 padding: 15px;
                 gap: 10px;
                 height: fit-content;
-                background: url(/images/lightflowers.png);
+                background: url(images/lightflowers.png);
 
                 h1.heading {
                     font-size: 35px;
@@ -699,7 +699,7 @@ body {
                 height: fit-content;
                 width: 100vw;
                 overflow: hidden;
-                background: url(/images/midflowers.png);
+                background: url(images/midflowers.png);
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -728,7 +728,7 @@ body {
                 padding: 15px;
                 gap: 10px;
                 height: fit-content;
-                background: url(/images/lightflowers.png);
+                background: url(images/lightflowers.png);
 
                 div.button-column {
                     display: flex;
@@ -789,7 +789,7 @@ body {
                 padding: 15px;
                 gap: 10px;
                 height: fit-content;
-                background: url(/images/lightflowers.png);
+                background: url(images/lightflowers.png);
 
                 h1.heading {
                     color: var(--blue);
@@ -842,7 +842,7 @@ body {
                 padding: 15px;
                 gap: 10px;
                 height: fit-content;
-                background: url(/images/lightflowers.png);
+                background: url(images/lightflowers.png);
             }
 
             p.info {
@@ -855,7 +855,7 @@ body {
                 height: fit-content;
                 width: 100vw;
                 overflow: hidden;
-                background: url(/images/midflowers.png);
+                background: url(images/midflowers.png);
                 display: flex;
                 align-items: center;
                 justify-content: center;
