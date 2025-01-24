@@ -45,7 +45,7 @@ body {
     color: black;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     body {
         padding: 30px;
     }
@@ -504,7 +504,7 @@ body {
     }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1199) {
     * {
         scrollbar-width: none;
     }
