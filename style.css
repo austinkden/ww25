@@ -900,3 +900,8 @@ body {
         font-size: 15px;
     }
 }
+
+img {
+background-repeat: no-repeat;
+}
+
