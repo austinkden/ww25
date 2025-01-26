@@ -171,10 +171,15 @@ function todayTomorrow() {
     const now = new Date();
     const dayOfWeek = now.getDay();
     const dayOfMonth = now.getDate();
-
-    const mondayDate = new Date(now.getFullYear(), 1, 3);
-    const tuesdayDate = new Date(now.getFullYear(), 1, 4);
     
+    if (dayOfWeek === 0 && dayOfMonth == 2) {
+        const sundayInfos = document.querySelectorAll("div.card.sunday p.info");
+        sundayInfos.forEach((info) => {
+            const newInfo = info.cloneNode(true);
+            todayDiv.appendChild(newInfo);
+        });
+    }
+
     if (dayOfWeek === 1 && dayOfMonth == 3) {
         const mondayInfos = document.querySelectorAll("div.card.monday p.info");
         mondayInfos.forEach((info) => {
@@ -215,17 +220,35 @@ function todayTomorrow() {
         });
     }
 
-    if (dayOfWeek === 0 && dayOfMonth == 2) {
-        const sundayInfos = document.querySelectorAll("div.card.sunday p.info");
-        sundayInfos.forEach((info) => {
+    if (dayOfWeek === 6 && dayOfMonth == 8) {
+        const saturdayInfos = document.querySelectorAll("div.card.saturday p.info");
+        saturdayInfos.forEach((info) => {
             const newInfo = info.cloneNode(true);
             todayDiv.appendChild(newInfo);
         });
     }
 
-    if (dayOfWeek === 1 && dayOfMonth == 3) {
+    // ------------------------------------------
+
+    if (dayOfWeek === 6 && dayOfMonth == 1) {
+        const sundayInfos = document.querySelectorAll("div.card.sunday p.info");
+        sundayInfos.forEach((info) => {
+            const newInfo = info.cloneNode(true);
+            tomorrowDiv.appendChild(newInfo);
+        });
+    }
+
+    if (dayOfWeek === 0 && dayOfMonth == 2) {
         const mondayInfos = document.querySelectorAll("div.card.monday p.info");
         mondayInfos.forEach((info) => {
+            const newInfo = info.cloneNode(true);
+            tomorrowDiv.appendChild(newInfo);
+        });
+    }
+
+    if (dayOfWeek === 1 && dayOfMonth == 3) {
+        const tuesdayInfos = document.querySelectorAll("div.card.tuesday p.info");
+        tuesdayInfos.forEach((info) => {
             const newInfo = info.cloneNode(true);
             tomorrowDiv.appendChild(newInfo);
         });
@@ -250,6 +273,14 @@ function todayTomorrow() {
     if (dayOfWeek === 4 && dayOfMonth == 6) {
         const fridayInfos = document.querySelectorAll("div.card.friday p.info");
         fridayInfos.forEach((info) => {
+            const newInfo = info.cloneNode(true);
+            tomorrowDiv.appendChild(newInfo);
+        });
+    }
+
+    if (dayOfWeek === 5 && dayOfMonth == 7) {
+        const saturdayInfos = document.querySelectorAll("div.card.saturday p.info");
+        saturdayInfos.forEach((info) => {
             const newInfo = info.cloneNode(true);
             tomorrowDiv.appendChild(newInfo);
         });
