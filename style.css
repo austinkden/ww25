@@ -5,6 +5,7 @@
     --blue: #64CBDE;
     --green: #97E0BD;
     --yellow: #DEFD8D;
+    --link: #109bb5;
 }
 
 * {
@@ -47,12 +48,14 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--blue);
+    color: var(--link);
     padding: 2px;
+    transition: 0.3s ease;
+    cursor: pointer;
 
     &:hover {
-        background: var(--blue);
-        color: black;
+        background: var(--link);
+        color: white;
     }
 }
 
