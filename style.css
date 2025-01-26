@@ -45,6 +45,17 @@ body {
     color: black;
 }
 
+a {
+    text-decoration: none;
+    color: var(--blue);
+    padding: 2px;
+
+    &:hover {
+        background: var(--blue);
+        color: black;
+    }
+}
+
 @media (min-width: 1200px) {
     body {
         padding: 30px;
