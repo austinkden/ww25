@@ -46,7 +46,7 @@ body {
     color: black;
 }
 
-a {
+a, span.copy {
     text-decoration: none;
     padding: 2px;
     cursor: pointer;
@@ -59,6 +59,16 @@ a {
         color: white;
         text-decoration: none;
     }
+}
+
+span.copy.success {
+    background: var(--green);
+    color: black;
+}
+
+span.copy.error {
+    background: var(--pink);
+    color: white;
 }
 
 @media (min-width: 1200px) {
@@ -467,7 +477,6 @@ a {
                 }
             }
 
-            div.card.weekend h1.heading { color: var(--blue); }
             div.card.monday h1.heading { color: var(--pink); }
             div.card.tuesday h1.heading { color: var(--blue); }
             div.card.wednesday h1.heading { color: var(--pink); }
@@ -517,7 +526,7 @@ a {
         bottom: 0;
         left: 0;
         width: 100vw;
-        margin-bottom: 5px;
+        margin-bottom: 6px;
     }
 }
 
@@ -848,7 +857,7 @@ a {
             }
         }
 
-        div.card.monday, div.card.tuesday, div.card.wednesday, div.card.thursday, div.card.friday {
+        div.card.weekend, div.card.monday, div.card.tuesday, div.card.wednesday, div.card.thursday, div.card.friday {
             display: flex;
             flex-direction: column;
 
@@ -889,11 +898,11 @@ a {
             }
         }
 
-        div.card.monday h1.heading { color: var(--blue); }
-        div.card.tuesday h1.heading { color: var(--pink); }
-        div.card.wednesday h1.heading { color: var(--blue); }
-        div.card.thursday h1.heading { color: var(--pink); }
-        div.card.friday h1.heading { color: var(--blue); }
+        div.card.monday h1.heading { color: var(--pink); }
+        div.card.tuesday h1.heading { color: var(--blue); }
+        div.card.wednesday h1.heading { color: var(--pink); }
+        div.card.thursday h1.heading { color: var(--blue); }
+        div.card.friday h1.heading { color: var(--pink); }
     }
 
     button.next {

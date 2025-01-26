@@ -310,7 +310,19 @@ function noTomorrow() {
     }
 }
 
+function copies() {
+    const canes = document.getElementById("canes-code");
+    canes.addEventListener("click", () => {
+        navigator.clipboard.writeText("RCFUND96");
+        canes.classList.add("success");
+        setTimeout(() => {
+            canes.classList.remove("success");
+        }, 500);
+    })
+}
+
 contentButtons();
+copies();
 scrollButton();
 scrollKeyboardKeys();
 menu();
