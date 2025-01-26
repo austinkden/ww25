@@ -1,5 +1,5 @@
 The (so far) unofficial website of Wish Week 2025 for Mountain Vista High School.  
-Open a GitHub issue for suggestions, bugs, glitches, vulnerabilities, or issues.
+[Open a GitHub issue](https://github.com/austinkden/ww25/issues/new?template=report-an-issue.md) for suggestions, bugs, glitches, vulnerabilities, or issues.
 
 ---
 
