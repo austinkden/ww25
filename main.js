@@ -67,6 +67,7 @@ function menu() {
         <button class="item" id="carter">Carter</button>
         <button class="item" id="her-wish">Her Wish</button>
         <button class="item" id="donate">Donate & Shirts</button>
+        <button class="item" id="weekend">Weekend</button>
         <button class="item" id="monday">Monday</button>
         <button class="item" id="tuesday">Tuesday</button>
         <button class="item" id="wednesday">Wednesday</button>

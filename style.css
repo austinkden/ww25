@@ -48,14 +48,16 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--link);
     padding: 2px;
-    transition: 0.3s ease;
     cursor: pointer;
+    color: var(--link);
+    border-radius: 3px;
+    text-decoration: underline;
 
     &:hover {
         background: var(--link);
         color: white;
+        text-decoration: none;
     }
 }
 
@@ -418,7 +420,7 @@ a {
                 }
             }
 
-            div.card.monday, div.tuesday, div.wednesday, div.thursday, div.friday {
+            div.weekend, div.monday, div.tuesday, div.wednesday, div.thursday, div.friday {
                 display: flex;
                 flex-direction: row;
                 gap: 0px;
@@ -465,11 +467,12 @@ a {
                 }
             }
 
-            div.card.monday h1.heading { color: var(--blue); }
-            div.card.tuesday h1.heading { color: var(--pink); }
-            div.card.wednesday h1.heading { color: var(--blue); }
-            div.card.thursday h1.heading { color: var(--pink); }
-            div.card.friday h1.heading { color: var(--blue); }
+            div.card.weekend h1.heading { color: var(--blue); }
+            div.card.monday h1.heading { color: var(--pink); }
+            div.card.tuesday h1.heading { color: var(--blue); }
+            div.card.wednesday h1.heading { color: var(--pink); }
+            div.card.thursday h1.heading { color: var(--blue); }
+            div.card.friday h1.heading { color: var(--pink); }
         }
 
         
