@@ -609,6 +609,60 @@ span.copy.error {
             background: rgba(255, 255, 255, 0.8);
         }
 
+        div.card.tomorrow {
+            div.text {
+                height: fit-content;
+                display: flex;
+                flex-direction: column;
+                padding: 15px;
+                gap: 10px;
+                background: url(images/lightflowers.png);
+    
+                h1.heading {
+                    font-size: 50px;
+                    color: var(--pink);
+                    line-height: 0.8;
+                }
+    
+                h1:nth-child(1) {
+                    margin-bottom: -5px;
+                }
+    
+                p.info {
+                    font-size: 18px;
+                    user-select: text;
+                    line-height: 1.1;
+                }
+            }
+        }
+    
+        div.card.today {
+            div.text {
+                height: fit-content;
+                display: flex;
+                flex-direction: column;
+                padding: 15px;
+                gap: 10px;
+                background: url(images/lightflowers.png);
+    
+                h1.heading {
+                    font-size: 50px;
+                    color: var(--green);
+                    line-height: 0.8;
+                }
+    
+                h1:nth-child(1) {
+                    margin-bottom: -5px;
+                }
+    
+                p.info {
+                    font-size: 18px;
+                    user-select: text;
+                    line-height: 1.1;
+                }
+            }
+        }
+
         div.card.banner {
             display: flex;
             flex-direction: column;
@@ -903,60 +957,6 @@ span.copy.error {
         div.card.wednesday h1.heading { color: var(--pink); }
         div.card.thursday h1.heading { color: var(--blue); }
         div.card.friday h1.heading { color: var(--pink); }
-    }
-
-    div.card.tomorrow {
-        div.text {
-            height: fit-content;
-            display: flex;
-            flex-direction: column;
-            padding: 15px;
-            gap: 10px;
-            background: url(images/lightflowers.png);
-
-            h1.heading {
-                font-size: 50px;
-                color: var(--pink);
-                line-height: 0.8;
-            }
-
-            h1:nth-child(1) {
-                margin-bottom: -5px;
-            }
-
-            p.info {
-                font-size: 18px;
-                user-select: text;
-                line-height: 1.1;
-            }
-        }
-    }
-
-    div.card.today {
-        div.text {
-            height: fit-content;
-            display: flex;
-            flex-direction: column;
-            padding: 15px;
-            gap: 10px;
-            background: url(images/lightflowers.png);
-
-            h1.heading {
-                font-size: 50px;
-                color: var(--green);
-                line-height: 0.8;
-            }
-
-            h1:nth-child(1) {
-                margin-bottom: -5px;
-            }
-
-            p.info {
-                font-size: 18px;
-                user-select: text;
-                line-height: 1.1;
-            }
-        }
     }
 
     button.next {
