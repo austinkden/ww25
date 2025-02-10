@@ -327,3 +327,6 @@ scrollButton();
 scrollKeyboardKeys();
 menu();
 specialCommands();
+todayTomorrow();
+noToday();
+noTomorrow();
